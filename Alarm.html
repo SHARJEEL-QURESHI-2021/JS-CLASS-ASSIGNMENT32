@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <center>
+        <h1>Alarm App!</h1>
+        <div id="main">
+            <p>
+                <span id="hours">00 </span><span id="dot"> : </span><span id="minutes"> 00 </span>
+                <span id="dot"> : </span><span id="seconds"> 00 </span><span id="session">PM</span>
+            </p>
+            <input type="text" id="inp1" class="inp" placeholder="00">
+            <input type="text" id="inp2" class="inp" placeholder="00">
+            <br />
+            <button id="btn" onclick="addAlarm()">Add Alarm <i class="fa-solid fa-bell"></i></button>
+            <div id="show" class="many">
+                
+            </div>
+        </div>
+    </center>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
